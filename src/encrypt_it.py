@@ -5,7 +5,7 @@ import tkinter.ttk as ttk
 
 """
 ====================
-     Main window    
+    Main window    
 ====================
 """
 root = tk.Tk()
@@ -15,7 +15,7 @@ root.resizable(False, False)
 
 """
 ===============
-     Title     
+    Title     
 ===============
 """
 lbl_title = ttk.Label(root, text="ENCRYPT-IT")
@@ -26,7 +26,7 @@ lbl_text = ttk.Label(root, text="Implementation of the RSA algorithm").place(rel
 
 """
 ===============
-     Inputs    
+    Inputs    
 ===============
 """
 
@@ -55,7 +55,7 @@ txt_decrypt.place(x=10, y=370)
 
 """
 ================
-     Functions 
+    Functions 
 ================
 """
 functions = ui_functions.Functions(entry_public_key, entry_private_key, txt_encrypt, txt_decrypt)
@@ -63,7 +63,7 @@ functions = ui_functions.Functions(entry_public_key, entry_private_key, txt_encr
 
 """
 ===============
-     Buttons   
+    Buttons   
 ===============
 """
 
@@ -87,7 +87,7 @@ btn_decypt = ttk.Button(root, text="\n\nDecrypt\n\n", width=62, command=function
 
 """
 =========================
-     Runs main window   
+    Runs main window   
 ========================= 
 """
 root.mainloop()
